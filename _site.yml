@@ -1,7 +1,17 @@
 name: "my-website"
 output_dir: "."
 navbar:
-  title: "My Website"
+  title: "Atefeh Anisi's Website"
   left:
-    - text: "Home"
+    - text: "HOME"
       href: index.html
+    - text: "RESUME"
+      href: resume.html
+    - text: "LINKEDIN"
+      href: linkedin.html
+    - text: "GITHUB"
+      href: github.html
+output:
+  html_document:
+    theme: yeti
+    highlight: textmate
